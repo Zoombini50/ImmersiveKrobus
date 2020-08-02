@@ -1,0 +1,13 @@
+{
+   "Name": "[CP] Immersive Krobus",
+   "Author": "Glowbug (concept, dialog, events in the vent) and LenneDalben (event script and format)",
+   "Description": "Adds some dialogue and an event for Krobus!",
+   "Version": "1.0.0",
+   "UniqueID": "Glowbug.LenneDalben.ImmersiveKrobus",
+   "MinimumApiVersion": "3.6.1",
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher",
+       //"MinimumVersion": "1.15.2"
+    },
+   "UpdateKeys": [ "" ],
+}
