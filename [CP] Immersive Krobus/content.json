@@ -1,4 +1,5 @@
 {
+	"$schema": "https://smapi.io/schemas/content-patcher.json",
 	"Format": "1.15.0",
 	"Changes": [
 		/*{ I put this here as a placeholder since I think you wanted to add dialog as well! But if you wanted to go forth with just the intro event, we can take it out, no worries!
@@ -13,6 +14,7 @@
 			"Target": "Data/Events/Sewer",
 			"Entries": {
 				"31072020": "continue/15 16/farmer 15 15 2 Krobus 29 21 1/playMusic Icicles/emote Krobus 8/speed Krobus 4/move Krobus -10 0 2/jump farmer 8/jump Krobus 8/faceDirection Krobus 0/startJittering/speak Krobus \"Oh! A human...\"/speak Krobus \"P-Please, don't be alarmed. I am different than the others.$s\"/stopJittering/pause 500/emote farmer 8/speak Krobus \"Yes, I can speak your language. I've spent a lot of time observing humans...from the shadows.$h\"/emote Krobus 40/speak Krobus \"Perhaps...\"/speak Krobus \"I know humans like to shop. Care to see my wares?$h\"/emote farmer 32/pause 500/globalFade/viewport -1000 -1000/speak Krobus \"I gather items I find here in the sewers to sell. I also have trinkets and treasures made by my people. I hope you find something that pleases you.$h\"/end dialogue Krobus \"I am open for business.\""
+
 				/*breakdown of the code, for our learning:
 				First is the ID, I chose the day, woohoo!
 				continue is the initial "music". (15, 16) are the coordinates the camera is focused on.
