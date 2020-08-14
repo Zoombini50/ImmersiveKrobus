@@ -44,6 +44,7 @@
 10 Hearts
 
 "Fri": "...", // (with smiling face)
+"Saloon_Fri10": "%Krobus is scribbling in a small notebook. He looks happy."
 
 -Events-
 
@@ -69,45 +70,54 @@ After event:
 
 Two-Heart
 * Enter the sewer at night (between 8 and 12 maybe).
+* I think this event needs some work; somehow to tie into Krobus's interest in humans/eventual desire to be an ambassador between shadow people and humans/possibly other beings.
+
 (Krobus is moving about his shop area--perhaps some added scenery?--poking at objects. Player enters.)
 Krobus: Ah! Hello, [Player]!
 (Krobus walks to his position when the shop is open.)
-Krobus: "Please feel free to peruse my shop. However, you should not stay long. I expect some of my kindred to visit during the witching hour."
-Krobus: "Most shadow people are suspicious of humans. There have been too many... unpleasant encounters."
+Krobus: "Feel free to peruse my shop. However, you should not stay long. I expect some of my kind to visit during the witching hour."
 (fork)
 Krobus: "[Player], have you met others like me, in the mines?"
   - Yes, but they attacked me
-      Krobus: "I am sorry. As I said, we've learned to fear humans. I hope... no... never mind."
+      Krobus: "I am sorry. I hope... no... never mind."
   - No, I haven't
-    Krobus: "Please be careful. They may be hostile toward you. As I said, we've learned to fear humans..."
+    Krobus: "Please be careful. They may be hostile toward you."
 (End fork)
+Krobus: "Most shadow people are suspicious of humans. There have been too many... unpleasant encounters."
 (Krobus sad emote)
-"Do any of my wares appeal to you? We still have a little time before the witching hour."
+"We still have a little time before the witching hour. Do any of my wares appeal to you?"
 (end)
 
 After event:
-"It is considered dishonorable among my people to flee from an enemy. I hope, one day, there will be peace."
- 
+"It is considered dishonorable among my people to flee from an enemy. I hope, one day, there will be greater understanding and peace."
 
 
 Four-Heart
-
-
+* Something at the Wizard's tower or the Adventurer's Guild? Evening.
+* Make sure player has gotten far enough in the mines to see shadow people. To the bottom would be fine if specific floors are tricky to set.
+* What should Krobus want here? Not sure. I think he would be upset about the killing of shadow people as a matter of course by adventurers, but without another viable option that will just get players upset...
+* Establish communication between humans and shadow folk?
+* It is possible Krobus is a bit of an oddity among shadow people because he is so curious about humans and doesn't want to fight them. (Is he also curious about dwarves?)
+* ...Intercultural exchange fair??
 
 Six-Heart
-
+* Krobus wants to meet another human
+* Introduce Krobus to Linus?
+* Krobus wants to advocate on behalf of the shadow people... somehow.
+* Maybe Krobus starts going out at night (in disguise?) after this event, and/or going to visit Linus.
+* Could possibly switch with four-heart event.
 
 
 Eight-Heart
-
+* Human-shadow-maybe dwarf intercultural exchange fair? :D
 
 
 Ten-Heart
-
-
+* The townsfolk are now aware of Krobus and (with some reservations) accept his presence.
+* His presence around town should become more noticeable after this event (or possibly after his 8-heart event).
 
 Dwarf-and-Krobus event
-
+* ???
 
 
 
@@ -117,10 +127,18 @@ At first, Krobus stays in the sewer all day, as in vanilla.
 After one of his later heart events (undecided which), he starts to go out in the 10 PM - 2 AM window (around town, standing by a bush or something in case a human walks by, maybe inside the community center or JojaMart after it's abandoned) and on rainy days (outside of town).
 
 If he is accepted by the townsfolk later in his arc, perhaps he will occasionally turn up in the saloon... probably to stand there awkwardly. I'm not sure what he'd think of beer, but he'd certainly have fun people watching. :)
+-> Friday/maybe Saturday nights at ten hearts: Krobus shows up in the saloon to people-watch. The townsfolk comment on his presence the first few times this happens. :D
 
 On snowy days in winter he may spend time at the spa.
 
 He likes humidity and would enjoy hanging out by bodies of water. He may want to visit his people in the mines.
 
 Reactions:
-Linus would probably be a little confused by him at first but accept him rapidly. The rest of the townsfolk vary. Jas would be intimidated but warm up upon seeing Krobus is friendly. Abigail would have to be talked down from thinking he's a monster to fight, then be very excited. Vincent, amusingly, would probably be the same. Shane would just flat-out refuse to believe it. Sebastian would relate to hiding underground all day. ;) Sam would be on board if Seb and Abigail were.
+Linus would probably be a little confused by him at first but accept him rapidly.
+Jas would be intimidated but warm up upon seeing Krobus is friendly.
+Abigail would have to be talked down from thinking he's a monster to fight, then be very excited. Vincent, amusingly, would probably be the same.
+Shane would just flat-out refuse to believe it.
+Sebastian would relate to hiding underground all day. ;)
+Sam would be on board if Seb and Abigail were.
+The parent figures (Caroline, Pierre, Jodi, Kent, maybe Marnie) would be concerned to varying degrees.
+Morris would be straight-up horrified because he's awful.

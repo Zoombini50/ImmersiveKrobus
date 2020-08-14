@@ -1,0 +1,13 @@
+{
+
+  "Name": "Name of your Mod Goes here",
+   "Author": "Put your Name here",
+   "Description": "Describe your Mod here",
+   "Version": "1.0.0", //so long as it's not 0.0.0
+   "UniqueID": "name.modname",
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    },
+   "UpdateKeys": [ "" ], //you get a nexus key when starting to upload
+   
+}

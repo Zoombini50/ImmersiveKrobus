@@ -1,0 +1,34 @@
+/************************************************************************************************************************************************************************
+*																																										*
+*																																										*
+*															Dialogue Template: Day to Day speech																		*
+*																																										*
+*			This file determines what your NPC says during the days.  You can use different tokens to symbolize your character's personality. 							*
+*																																										*
+*   Basic Keys: Mon, Tue, Wed, Thu, Fri, Sat, Sun : These are the days of the week and must have a capitol letter to be parsed correctly.								*
+*	Heart-Level is determined with a number at the end. (example: Mon4 is for Monday with 4 hearts.) You can only use even numbers.										*
+*	Seasonal Dialogue is determined with the season name (lowercase) and the day of the week after an underscore. (summer_Wed)											*
+*	You can combine some tokens to make more dialogue: winter_Tue6 for example, means on a Tuesday during winter when you have 6 hearts.								*
+*	You may also specify an exact day using Season followed by the day (1-28): fall_14 means the 14th day of fall.  This is useful for specific events.					*
+*	Response Dialogue goes here from Events and Questions made for the NPC.  They are determined by you and some examples are provided below.							*
+*	Introduction is a one time use dialogue used to Introduce your NPC to the player.																					*
+*	danceRejection, dumped_Girls (dumped_Guys), secondChance_Girls (secondChance_Guys), and divorced are not all needed but you should put them in if your NPC can		*
+*		get married.																																					*
+*																																										*
+*	There are plenty of options to dialogue use.  If you wish to use the full range of dialogue, see: https://stardewvalleywiki.com/Modding:Dialogue					*
+*																																										*
+*************************************************************************************************************************************************************************/
+
+{
+
+	"Introduction": "Hello, @!  That symbol I used tells me to use your name.  I can also use %farm to mention your farm.#$b#That is an uninterrupted break.. Keeps the dialogue going.#$e#This was a normal break... meaning you have to talk to me again.#$b#That should cover the basic dialogue.",
+	"Mon": "Hey @, I got a quick question for you...#$b#$q 6000/6001 mon_template#Do you know how to make question events?#$r 6000 250 mon_yes#Sure do#$r 6001 500 mon_no#I don't know how",
+	"mon_yes": "That's great to know... You should use them once in a while to help develop closer bonds to your NPC",
+	"mon_no": "No? Well let's look at my question.#$b# The first part is the question indicator.. the dollar sign+ the q.. This tells the game that I am about to ask a question.#$b#The first set of numbers are my response IDs.  The game will store the response to these numbers. #$b#The mon_template is my fallback... how I talk to you after the question has been answered.#$b# The dollar sign + r indicates that you are starting responses, the first number is the ID of the response and the second number is how many friendship points it gives. One heart is 250 points.  It also needs a response dialogue from me as well.#$b#Notice that responses and questions are divided by hashtags.",
+	"mon_template": "$p 6000#If you answered yes... You will see this dialogue.|If you did not, you will see this dialogue.",
+	"Tue": "MissCoriel can be helpful in many dialogue and events.  You can reach her on discord!#$b# Her ID is MissCoriel#7989!",
+	"Wed": "Portrait expressions are important to convey the scene.$1#$b#When making portraits, remember this:#$b#1 is happy, 2 is sad, 3 is unique, 4 is blushing, 5 is angry.#$b#You can have up to 12 portraits as far as I know.",
+	"Thu": "Some dialogue is found elsewhere in the contents.. I will help you find the most relavent.",
+	"Fri": "You can also give people items like this. [70]#$b#Use Cane's Resource to see Item IDs and other important things.",
+	
+}
