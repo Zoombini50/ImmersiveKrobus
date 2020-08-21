@@ -2,18 +2,7 @@
 (vanilla lines here for reference)
   "4": "...Have you encountered others like me, in the mines? I'm sorry if they were hostile towards you. You see, we've learned to fear humans... there have been too many... unpleasant encounters.#$e#You haven't... slain any of my friends, have you?",
         
-        
-        
-        "Sewer_Wed6": "If you put your ear up to the right pipe, you can hear into any house from down here.#$b#I wouldn't eavesdrop, though!$3",
-        
         "Sewer_Thu6": "Please don't tell anyone about me.#$b#Most humans are frightened by us shadow people... maybe for good reason.$s#$b#But regardless, if the townspeople knew about me, I might not be safe here.",
-        
-        "Mon6": "'Krobus' means 'bridge-crosser' in our language.",
-        "Sat": "On Fridays I stay silent as a sign of devotion to Yoba.",
-        "Sun": "...Sorry, I'm still a little wary of humans. My shop is still open to you, however.",
-        "Sun4": "You're not like the other humans, are you?",
-        "Sun8": "You've opened my eyes to the world of humans. I appreciate that.",
-        "divorced": "..."
 
 0 Hearts
 "Sewer_Mon": "Humans are fascinating to observe, but I must be careful to stay hidden.",
@@ -35,6 +24,7 @@
 
 6 Hearts
 
+"Sewer_Wed6": "If you put your ear up to the right pipe, you can hear into any house from down here.#$b#I wouldn't eavesdrop, though!$3"
 "Fri": "...", // (with smiling face)
 
 8 Hearts
@@ -132,6 +122,41 @@ If he is accepted by the townsfolk later in his arc, perhaps he will occasionall
 On snowy days in winter he may spend time at the spa.
 
 He likes humidity and would enjoy hanging out by bodies of water. He may want to visit his people in the mines.
+
+Outside Linus's tent: Mountain 31, 7
+Hat Mouse: Forest 31, 95
+Outside Sewer (Forest): Forest 93, 101
+Near library: Town 108, 97
+Inside library, by fireplace: ArchaeologyHouse 42, 4
+Inside library, by a study carel: ArchaeologyHouse 14, 14
+Beach, tide pool dock: Beach 82, 38
+Beach, by warp totem/wreckage: Beach 18, 6
+Sewer entrance (town), behind a tree: Town 31, 96
+Near sewer (town), by the river: Town 42, 102
+NEXT to the tree instead: Town 32, 97
+Near sewer (town), by the river: Town 42, 102
+Inside Adventurer's Guild, by corner table: AdventureGuild 10, 18
+Inside Saloon, by bear statue: Saloon 24, 17
+Center of spouse patio: Farm 71, 8
+Bus stop, under big tree by fence: BusStop 6, 20
+Bus tunnel, near barrier under a light: Tunnel 10, 7
+Near the bridge: Town 49, 101
+Near graveyard, behind a small bush: Town 41, 93
+CC behind Junimo hut: CommunityCenter 22, 7
+CC boiler room, by mushrooms: CommunityCenter 61, 15
+CC kitchen: CommunityCenter 8, 6
+Wizard's tower, in the back by a bookshelf: WizardHouse 2, 6
+Wizard's tower, by the books near the cauldron: WizardHouse 5, 19
+Wizard's tower, by the table: WizardHouse 11, 20
+Forest river dock near tower: Forest 34, 25
+Outside Marnie's cow pen (left side): Forest 92, 20
+Inside the bathhouse (vanilla): BathHouse_Pool 13, 10
+Inside bathhouse entrance (vanilla): BathHouse_Entry 5, 4
+
+
+
+
+
 
 Reactions:
 Linus would probably be a little confused by him at first but accept him rapidly.

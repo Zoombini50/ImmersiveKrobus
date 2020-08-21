@@ -1,25 +1,15 @@
 {
-	// Last update: August 14, 2020 by Glowbug
-	// updated format, rearranged the dialogue a little
+	// Last update: August 18, 2020 by Glowbug
+	// moved dialogue to its own file for easier editing
 	"Format": "1.15.0",
 	"Changes": [
-		/* I'm adding dialogue here--hopefully more to come! -Glow */
+		/*
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Krobus",
 			"Entries": {
-				"Fri": "...",
-				"Sat": "On Fridays I stay silent as a sign of devotion to Yoba.",
-				"Sewer_Mon": "Humans are fascinating to observe, but I must be careful to stay hidden.",
-				"Sewer_Tue": "I am too sensitive to sunlight to go out on most days.#$b#The conditions in here are perfect.#$e#Care to buy anything?",
-				"Sewer_Wed": "I find things here and I sell them. Care to buy anything?",
-				"Sewer_Thu": "Please don't tell anyone about me.#$b#Humans tend to destroy things they can't understand.",
-				"Sewer_Sun": "...Sorry, I'm still a little wary of humans. My shop is still open to you, however.",
-				"Sewer_Mon2": "Back again? I suppose it does fit into my theory of human behavior.",
-				"Sewer_Tue2": "The smell? ...Ah, I see. My sense of smell is rather weak compared to a human's, so the miasma of the sewer does not trouble me.#$e#Many culinary delicacies of the shadow are highly aromatic. I am particularly fond of void egg dishes.#$h",
-				"Sewer_Summer11": "I would be most interested in your description of the human 'luau.' Unfortunately, the sun is too bright for me to observe it directly.",
-			}
-		},
+				"Sewer_Mon": "",
+			} */
 		// note to self: this is the older version of the event that has since been updated in master
 		{
 			"Action": "EditData",
