@@ -1,3 +1,7 @@
+Last update: September 1, 2020 by Glowbug
+• Coordinate notes for a Krobus schedule
+• Wrote a draft of 8-heart event
+
 -Everyday Dialogue-
 (vanilla lines here for reference)
   "4": "...Have you encountered others like me, in the mines? I'm sorry if they were hostile towards you. You see, we've learned to fear humans... there have been too many... unpleasant encounters.#$e#You haven't... slain any of my friends, have you?",
@@ -66,7 +70,7 @@ Two-Heart
 Krobus: Ah! Hello, [Player]!
 (Krobus walks to his position when the shop is open.)
 Krobus: "Feel free to peruse my shop. However, you should not stay long. I expect some of my kind to visit during the witching hour."
-(fork)
+(question fork)
 Krobus: "[Player], have you met others like me, in the mines?"
   - Yes, but they attacked me
       Krobus: "I am sorry. I hope... no... never mind."
@@ -83,6 +87,12 @@ After event:
 
 
 Four-Heart
+* Krobus wants to meet another human
+* Introduce Krobus to Linus?
+* Krobus wants to advocate on behalf of the shadow people... somehow.
+* Maybe Krobus starts going out at night (in disguise?) after this event, and/or going to visit Linus.
+
+Six-Heart
 * Something at the Wizard's tower or the Adventurer's Guild? Evening.
 * Make sure player has gotten far enough in the mines to see shadow people. To the bottom would be fine if specific floors are tricky to set.
 * What should Krobus want here? Not sure. I think he would be upset about the killing of shadow people as a matter of course by adventurers, but without another viable option that will just get players upset...
@@ -90,16 +100,28 @@ Four-Heart
 * It is possible Krobus is a bit of an oddity among shadow people because he is so curious about humans and doesn't want to fight them. (Is he also curious about dwarves?)
 * ...Intercultural exchange fair??
 
-Six-Heart
-* Krobus wants to meet another human
-* Introduce Krobus to Linus?
-* Krobus wants to advocate on behalf of the shadow people... somehow.
-* Maybe Krobus starts going out at night (in disguise?) after this event, and/or going to visit Linus.
-* Could possibly switch with four-heart event.
-
 
 Eight-Heart
 * Human-shadow-maybe dwarf intercultural exchange fair? :D
+(Possible sites: the community center, the library, the secret woods, the big event room next to Pierre's shop, the cave at the mine entrance. I would really prefer the community center, but that presents a problem if the player goes the JojaMart route, as it doesn't make much sense to hold an event in a warehouse. The sewer is also an option but seems inhospitable for the townsfolk.)
+(A collection of tables has been set up - I might play around with tilesheets for ideas, and am tempted to borrow set dressing/characters from Festival of the Mundane if the authors are okay with that. Anyway, there is a food table, some booths selling the kinds of things you might find in Krobus's shop and/or the mines, a dartboard, etc. I think a shadow person jug band would be really fun albeit tricky to art. On the other side of the room are some human booths, such as Pierre's shop, maybe Sebastian's running a games table or Sam's band is there for music (or to play with the shadow jug band, ha!). Krobus is running around checking on everyone, the Wizard is somewhere visible but off to the side, so is Marlon. Hat Mouse and Dwarf are probably there somewhere too. Camera pans over all of this.)
+(Krobus moves to the center of whatever area this ends up being.)
+Krobus: "Ahem... May I have everyone's attention, please?"
+(All/most characters turn toward Krobus.)
+Krobus: "Thank you. On behalf of myself, the enchanter Magnus Rasmodius, Marlon of the Adventurer's Guild and the venerable Seigneur Hiedra of the Shadow, I would like to formally welcome you all to the Crepusculum Festival."
+(Clapping and assorted "hear hear"s from the crowd, possibly.)
+Krobus: "Today is a day of newfound understanding and connection between our peoples. I thank all of you, whether human, shadow, dwarf, or woodland being, for opening your minds to attend."
+Krobus: "I also wish to thank my dear friend, [Player]. Without [his/her] unfailing support, I would not have been able to make this day a reality. [Player]... I am eternally grateful."
+(Player makes the smiley face emote.)
+Krobus: "Lastly, I want to announce that the void custards and 'peach cobbler' have just come out of their respective ovens, and I hope you will all partake! Thank you, again, for coming, and please enjoy the rest of the festival."
+Krobus (very happy): "Truly. Thank you very much.$7"
+(Assorted clapping and shouts of support from the attendees. Player moves to join Krobus as the assorted humans and shadow people start going back to their activities. Several junimos appear, wave, and disappear again. Player does the startled animation. Both player and Krobus then smile.)
+
+After event:
+"It looks like the festival was a success.$h"
+
+// This *could* be expanded to an actual town festival with an event for Krobus's speech, but that would require making everything/everyone interactable and would probably be a lot more work.
+
 
 
 Ten-Heart
@@ -152,10 +174,7 @@ Forest river dock near tower: Forest 34, 25
 Outside Marnie's cow pen (left side): Forest 92, 20
 Inside the bathhouse (vanilla): BathHouse_Pool 13, 10
 Inside bathhouse entrance (vanilla): BathHouse_Entry 5, 4
-
-
-
-
+// Note to self: Check coordinates against the bathhouse hot spring mod at some point if only cuz *I* use it, haha
 
 
 Reactions:
@@ -166,4 +185,4 @@ Shane would just flat-out refuse to believe it.
 Sebastian would relate to hiding underground all day. ;)
 Sam would be on board if Seb and Abigail were.
 The parent figures (Caroline, Pierre, Jodi, Kent, maybe Marnie) would be concerned to varying degrees.
-Morris would be straight-up horrified because he's awful.
+Morris would be straight-up horrified because Morris is awful.

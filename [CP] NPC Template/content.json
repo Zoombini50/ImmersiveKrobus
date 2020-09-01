@@ -1,99 +1,77 @@
+// Last updated: August 31, 2020 by Glowbug
+// Replaced placeholders with Krobus's name throughout, updated CP version to what I'm using, set up NPC dispositions for practice, copied in some data from the vanilla files, then realized I didn't really need to update that rn and commented it out :p
+// Glowbug's Nexus ID # is 58661606
+// Questions will start with 1606xxx
 //This is the main area where your NPC comes together...
 {
-	"Format": "1.9", //It's always recommended to use the current version of Content Patcher for best results!
+	"Format": "1.16", //It's always recommended to use the current version of Content Patcher for best results!
 	"Changes": [
-	
-		{
-		
+		/*{
 			"LogName": "NPC Manifestation", //This is where we will add in you NPC's Disposition
 			"Action": "EditData", //The file just needs an edit.. do not use Load
 			"Target": "Data/NPCDispositions", //Be case sensitive
-			"Entries": { 
-			
-				"<NPC Name>": "<child/teen/adult choose one>/<polite/rude/neutral choose one>/<outgoing/shy/neutral choose one>/<male/female choose one>/<datable/not-datable choose one>/<This is reserved for NPC relations>/<Desert/Town/Other choose one>/<Birthday goes here>/<NPC's Family>/<Starting Location goes here>/<NPC Name.. can be different than the first one>",
+			"Entries": {
+				"Krobus": "adult/polite/shy/neutral/male/<datable/not-datable choose one>/<This is reserved for NPC relations>/Other/winter 1//Sewer 31 17/Krobus",
+				// Vanilla: "Krobus": "adult/polite/shy/neutral/male/secret/null/Other/winter 1//Sewer 31 17/Krobus"
 				//Example: "Abigail": "teen/rude/outgoing/neutral/female/datable/Sebastian/Town/fall 13/Caroline 'mom' Pierre 'dad'/SeedShop 1 9/Abigail",
 				//Second Example: "Hiroshi": "adult/polite/outgoing/positive/female/not-datable/null/Other/fall 13//BusStop 22 5/Satoshi",  Notice that the NPC has no family so it has a //
-				
 			},
-		},
-		
-		{
-		
+		},*/
+		/*{
 			"LogName": "NPC Gift Tastes", //This is how your NPC reacts to certain Items... You need to know the IDs of what you want your NPC to like/hate
 			"Action": "EditData", //Do not load.. just edit
 			"Target": "Data/NPCGiftTastes",
 			"Entries": {
-				"<NPC Name>": "I love what you gave me!/72 74 228 227 233/I like this./60 62 64 66 68 70 597 591 595/I don't like this./80 330/I hate this./2/That was very thoughtful of you./-4/ ", //last line is for birthday gifts keep it simple.
-				
+				"Krobus": "I love what you gave me!/72 74 228 227 233/I like this./60 62 64 66 68 70 597 591 595/I don't like this./80 330/I hate this./2/That was very thoughtful of you./-4/ ", //last line is for birthday gifts keep it simple.
 			},
-		},
-		
-		{
-		
+		},*/
+		/*{
 			"LogName": "Animations", //This is optional.. only if you made animation frames in your spritesheet
 			"Action": "EditData",
 			"Target": "Data/animationDescriptions",
 			"Entries": {
 				"<name the animation>": "the frames go here.. it can be a daunting task to get it perfect.",
 				"example": "17/17/17", //this just has frame 17 constantly
-				
 			},
-		},
-		
+		},*/
 		{
-		
 			"LogName": "Engagement Dialogue", //If you want to be able to have your NPC Married... this is needed or else they will not respond
 			"Action": "EditData",
 			"Target": "Data/EngagementDialogue",
 			"Entries": {
-				"<NPC Name0>": "   ", //If you named your NPC "Stennis" it would look like "Stennis0"  this is dialogue your NPC says while waiting to be married.
-				"<NPC Name1>": "   ", //These two dialogue points are all you need as after this dialogue you will be married the next day
+				"<Krobus0>": "@... I've never heard of a shadow person and a human living together. Do you think our peoples will still accept us?$u#$q 1606001 <fallback>#<text>#$r <response ID> <friendship> <reaction>#<answer text>#$l", //If you named your NPC "Stennis" it would look like "Stennis0"  this is dialogue your NPC says while waiting to be married.
+				"<Krobus1>": "You know I'll be a very strange person to live with, right? I can only go outdoors at night, or in the rain...", //These two dialogue points are all you need as after this dialogue you will be married the next day
 			},
 		},
-		
 		{
-		
 			"LogName": "Schedule Dialogue", //This is optional.. if you don't want to do this you don't have to
 			"Action": "Load",
-			"Target": "Strings/schedules/<NPC Name>",
+			"Target": "Strings/schedules/Krobus",
 			"FromFile": "assets/Schedules/ScheduleDialogue.json",
-			
 		},
-		
-		{
-		
-			"LogName": "<NPC Name> Portraits", //Loads the portraits of your character
+		/*{
+			"LogName": "Krobus Portraits", //Loads the portraits of your character
 			"Action": "Load",
-			"Target": "Portraits/<NPC Name>",
+			"Target": "Portraits/Krobus",
 			"FromFile": "assets/Image/<PortraitFileName.png>",
-			
 		},
-		
 		{
-		
-			"LogName": "<NPC Name> Sprites", //Loads the spritesheet for your NPC
+			"LogName": "Krobus Sprites", //Loads the spritesheet for your NPC
 			"Action": "Load",
-			"Target": "Characters/<NPC Name>",
+			"Target": "Characters/Krobus",
 			"FromFile": "assets/Image/<SpriteSheetName.png>",
-			
-		},
-		
+		},*/
 		{
-		
 			"LogName": "Dialogue", //Load this
 			"Action": "Load",
-			"Target": "Characters/Dialogue/<NPC Name>",
+			"Target": "Characters/Dialogue/Krobus",
 			"FromFile": "assets/Dialogue/Dialogue.json",
-			
 		},
-		
 		{
-		
 			"LogName": "Schedule", //Load Schedule
 			"Action": "Load",
-			"Target": "Characters/schedules/<NPC Name>",
+			"Target": "Characters/schedules/Krobus",
 			"FromFile": "assets/Schedule/Schedule.json",
-			
 		},
 		//This will cause your NPC to appear.. But that isn't really the end of your character... I hope
 		//From here you will need to Edit Event files, which I cannot be too specific about as you need creative freedom.. however I will try to explain the important Mechanics
@@ -106,23 +84,17 @@
 		//Veiwport is where the camera is.. you can use a debug mod to get these coordinates.  It only needs an X and Y (/54 20/)
 		//NPCs and farmer placement is next and must be done, lest you softlock.  The farmer MUST be placed even if you are not using him.  If you don't need the farmer, put the farmer on the coordinates -1000 1000 0.  You need x, y, and facingDirection.
 		//After this your event will begin.  You can do various things to make great effects.  Please refer to the wiki for commands as there is too many to talk about.
-		
 		//Here is a sample
-		{
-			
+		/*{
 			"LogName": "Event Sample",
 			"Action": "EditData",
 			"Target": "Data/Events/Town", //This will happen in Pelican Town
 			"Entries": {
-				"9588563/f <NPC Name> 500/t 700 1000": "springtown/34 82/farmer 28 74 2 <NPC Name> 35 81 2 Haley 35 82 0 Alex 34 82 0 Penny 35 89 2/.....",
-			
+				"9588563/f Krobus 500/t 700 1000": "springtown/34 82/farmer 28 74 2 Krobus 35 81 2 Haley 35 82 0 Alex 34 82 0 Penny 35 89 2/.....",
 			},
-		},
-		
-		//9588563 is the Event ID.  This Event has the following conditions: f <NPC Name> 500 mean you need to have at least two hearts with your NPC.  t 700 1000 means that this event only triggers between 7AM to 10AM ingame.  This translates that the event won't trigger until you have 2 hearts with your NPC and go to town between 7-10 AM.
+		},*/
+		//9588563 is the Event ID.  This Event has the following conditions: f Krobus 500 mean you need to have at least two hearts with your NPC.  t 700 1000 means that this event only triggers between 7AM to 10AM ingame.  This translates that the event won't trigger until you have 2 hearts with your NPC and go to town between 7-10 AM.
 		//The Music ID is springtown.  And the viewport is near the saloon (34 82).  The farmer will be out of frame but standing in town while your NPC has Haley and Alex nearby.  Penny is at a nearby tree.  
 		//From here you will have to shape the event on your own using wiki and you can always come talk to me.
 	]
 }
-		
-		
