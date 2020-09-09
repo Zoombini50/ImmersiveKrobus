@@ -134,6 +134,8 @@ Dwarf-and-Krobus event
 
 
 -Schedule-
+*** Krobus must be in his shop on Fridays to sell iridium sprinklers, or a lot of players will be very ticked off ***
+
 At first, Krobus stays in the sewer all day, as in vanilla.
 
 After one of his later heart events (undecided which), he starts to go out in the 10 PM - 2 AM window (around town, standing by a bush or something in case a human walks by, maybe inside the community center or JojaMart after it's abandoned) and on rainy days (outside of town).
