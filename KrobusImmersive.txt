@@ -137,6 +137,7 @@ Six-Heart
 Eight-Heart
 * Human-shadow-maybe dwarf intercultural exchange fair? :D
 (Possible sites: the community center, the library, the secret woods, the big event room next to Pierre's shop, the cave at the mine entrance. I would really prefer the community center, but that presents a problem if the player goes the JojaMart route, as it doesn't make much sense to hold an event in a warehouse. The sewer is also an option but seems inhospitable for the townsfolk.)
+--Lenne: I like the woods/forest for this! we can make stuff invisible with event magic to clear more space, and it would ensure that even if players went the Joja route, they could still see the event. I also like the library, if it's more of a learning opportunity, although the amount of stuff you mention in the next line might fit better in the woods/forest :D
 (A collection of tables has been set up - I might play around with tilesheets for ideas, and am tempted to borrow set dressing/characters from Festival of the Mundane if the authors are okay with that. Anyway, there is a food table, some booths selling the kinds of things you might find in Krobus's shop and/or the mines, a dartboard, etc. I think a shadow person jug band would be really fun albeit tricky to art. On the other side of the room are some human booths, such as Pierre's shop, maybe Sebastian's running a games table or Sam's band is there for music (or to play with the shadow jug band, ha!). Krobus is running around checking on everyone, the Wizard is somewhere visible but off to the side, so is Marlon. Hat Mouse and Dwarf are probably there somewhere too. Camera pans over all of this.)
 (Krobus moves to the center of whatever area this ends up being.)
 Krobus: "Ahem... May I have everyone's attention, please?"
@@ -145,8 +146,10 @@ Krobus: "Thank you. On behalf of myself, the enchanter Magnus Rasmodius, Marlon 
 (Clapping and assorted "hear hear"s from the crowd, possibly.)
 Krobus: "Today is a day of newfound understanding and connection between our peoples. I thank all of you, whether human, shadow, dwarf, or woodland being, for opening your minds to attend."
 Krobus: "I also wish to thank my dear friend, [Player]. Without [his/her] unfailing support, I would not have been able to make this day a reality. [Player]... I am eternally grateful."
+--Lenne: for the "his/her" portion, we could also make it "their" huhu~
 (Player makes the smiley face emote.)
 Krobus: "Lastly, I want to announce that the void custards and 'peach cobbler' have just come out of their respective ovens, and I hope you will all partake! Thank you, again, for coming, and please enjoy the rest of the festival."
+--Lenne: I'm a nerd and now I'm wondering, where are these ovens; do we see them? Lol
 Krobus (very happy): "Truly. Thank you very much.$7"
 (Assorted clapping and shouts of support from the attendees. Player moves to join Krobus as the assorted humans and shadow people start going back to their activities. Several junimos appear, wave, and disappear again. Player does the startled animation. Both player and Krobus then smile.)
 
@@ -221,3 +224,4 @@ Sebastian would relate to hiding underground all day. ;)
 Sam would be on board if Seb and Abigail were.
 The parent figures (Caroline, Pierre, Jodi, Kent, maybe Marnie) would be concerned to varying degrees.
 Morris would be straight-up horrified because Morris is awful.
+--Lenne: can Morris be talked to o.o? Without SVE, I mean (I don't use SVE but I know he can be talked to with SVE). Also, would Lewis and Marnie both also be afraid / concerned?
