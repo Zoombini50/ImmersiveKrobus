@@ -1,15 +1,39 @@
 {
+	"$schema": "https://smapi.io/schemas/content-patcher.json",
+	"Format": "1.16.0",
 	// Last update: September 8, 2020 by Glowbug
 	// looked up and used "Action": "Include" to add separated dialogue file
 	// updated version number in format to 1.16
-	"Format": "1.16.0",
 	"Changes": [
 		// fingers crossed this works I looked it up haha
 		{
+
 			"Action": "Include",
 			"FromFile": "assets/Dialogue.json"
+
+			"Action": "EditData",
+			"Target": "Data/Events/Sewer",
+			"Entries": {
+				"31072020": "continue/15 16/farmer 15 15 2 Krobus 29 21 1/playMusic Icicles/emote Krobus 8/speed Krobus 4/move Krobus -10 0 2/jump farmer 8/jump Krobus 8/faceDirection Krobus 0/startJittering/speak Krobus \"Oh! A human...\"/speak Krobus \"P-Please, don't be alarmed. I am different than the others.$s\"/stopJittering/pause 500/emote farmer 8/speak Krobus \"Yes, I can speak your language. I've spent a lot of time observing humans...from the shadows.$h\"/emote Krobus 40/speak Krobus \"Perhaps...\"/speak Krobus \"I know humans like to shop. Care to see my wares?$h\"/emote farmer 32/pause 500/globalFade/viewport -1000 -1000/speak Krobus \"I gather items I find here in the sewers to sell. I also have trinkets and treasures made by my people. I hope you find something that pleases you.$h\"/end dialogue Krobus \"I am open for business.$h\""
+				/*breakdown of the code, for our learning:
+				First is the ID, I chose the day, woohoo!
+				continue is the initial "music". (15, 16) are the coordinates the camera is focused on.
+				Next are the coordinates of the farmer and Krobus, (X, Y, direction they're facing).
+				I then set the music to play, Icicles, because it wouldn't work in the first slot, where continue is. Jonqora and I don't know why. 
+				Then we have Krobus with the "?" emote before turning around to discover the farmer! They both jump; 8 is the default value for jump. Not sure what happens if we make it greater or smaller, but that can be tested!
+				Then the dialog happens, which include the portraits.
+				Then there's the farmer emote of the cute smiley face.
+				Screen fades to black.
+				Krobus mentions his last bit of dialog, and the event ends.
+				Then there's the placeholder for the dialog that Krobus will say next time you talk to him.
+
+				Additional enhancements I thought of:
+				1) Currently this event plays the next time you go into the sewers, so we may want to look into adding a When condition so this only plays the first time you go into the sewer. I'd have to look into it.
+				2) I think it'd be nice if the farmer and Krobus walk back together towards where his shop is. His movement will be simple since he's only moving along the X axis, but the farmer's movement would be tougher, unless we're able to just have them move along the Y axis and the scene fades to black before they have to turn the corner!
+				*/
+			}
+
 		}
-		// note to self: older version of the event has since been updated in master, deleting here so it's easier to merge
 	]
 	// Could we add a non-required dependency for the canon-compliant dialogue expansion? It's quite popular—I use it—and I don't want it to override our Krobus. :) -G
 }
