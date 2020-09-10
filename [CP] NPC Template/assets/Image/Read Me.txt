@@ -1,0 +1,2 @@
+Honestly, there isn't much I can do to template this as it can be a long sprite or short.  Remember there are two image sets you need.  A spritesheet and a Portrait sheet.
+If you are new at this, use an existing spritesheet and portrait and draw over them to create something unique.
