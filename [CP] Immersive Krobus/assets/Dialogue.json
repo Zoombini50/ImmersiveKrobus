@@ -1,6 +1,6 @@
-// Last update: September 8, 2020 by Glowbug
+// Last update: September 10, 2020 by Glowbug
 // updated file to use EditData so it can be Included in content.json. I hope. :)
-//
+// added a line for Spring 23, commented out most of the blank dialogue
 /*************************************************************************
 *	Dialogue Template: Day to Day speech														
 *	This file determines what your NPC says during the days.  You can use different tokens to symbolize your character's personality.
@@ -27,7 +27,6 @@
 	"Fri": "You can also give people items like this. [70]#$b#Use Cane's Resource to see Item IDs and other important things.",
 	*/
 {
-	"Format": "1.16.0",
 	"Changes": [
 		{
 			"Action": "EditData",
@@ -40,10 +39,10 @@
 				// "secondChance_Guys": "", //replace Girls with Guys for the bachelors
 				"Mon": "Humans are fascinating to observe, but I must be careful to stay hidden.",
 				"Mon2": "Back again? I suppose it does fit into my theory of human behavior.",
-				"Mon4": "",
+				"Mon4": "Humans are wary of the unknown... yet they are also highly curious.#$e#Fascinating, don't you think?$h",
 				"Mon6": "'Krobus' means 'bridge-crosser' in our language.",
 				"Mon8": "",
-				"Mon10": "@! Seigneur Hiedra, eldest of the shadow people, gave me a message for you. She says you are welcome to join us at the next Festival of the Mundane.$h",
+				"Mon10": "Hello, @! Seigneur Hiedra, eldest of the shadow people, gave me a message for you.#$b#She says you are welcome to join us at the next Festival of the Mundane.$h",
 				"Tue": "I am too sensitive to sunlight to go out on most days.#$b#The conditions in here are perfect.#$e#Care to buy anything?",
 				"Sewer_Tue2": "The smell? ...Ah, I see. My sense of smell is rather weak compared to a human's, so the miasma of the sewer does not trouble me.",
 				"Tue4": "Many culinary delicacies of the shadow are highly aromatic. I am particularly fond of void egg dishes.#$h",
@@ -82,6 +81,7 @@
 				"Sun10": "",
 				"summer_1": "Ah, the summer season. Wonderfully warm and humid... but too bright.",
 				"Summer_11": "I would be most interested in your description of the human 'luau.' Unfortunately, the sun is too bright for me to observe it directly.",
+				/*
 				"summer_Mon": "",
 				"summer_Mon2": "",
 				"summer_Mon4": "",
@@ -167,7 +167,9 @@
 				"fall_Sun6": "",
 				"fall_Sun8": "",
 				"fall_Sun10": "",
-				"winter_1": "All shadow people traditionally mark our ages at the onset of winter. In this season, night and shadow are at their strongest.#$e#It's a little too cold for me, though. Maybe I'll acquire a 'scarf.'",
+				*/
+				"winter_1": "All shadow people traditionally mark our ages at the onset of winter. In this season, night and shadow are at their strongest.#$e#It's a little cold for me, though. Maybe I'll acquire a 'scarf.'",
+				/*
 				"winter_Mon": "",
 				"winter_Mon2": "",
 				"winter_Mon4": "",
@@ -213,11 +215,16 @@
 				"spring_4": "",
 				"spring_7": "",
 				"spring_10": "",
-				"spring_12": "",
+				*/
+				"spring_12": "Perhaps I'll hide a void egg in the graveyard tonight. It would be satisfying to take part in a local ritual.",
+				/*
 				"spring_14": "",
 				"spring_18": "",
-				"spring_20": "",
-				"spring_23": "",
+				*/
+				"spring_20": "Last week's forgotten festival eggs have begun to rot by now.#$b#Delicious!$h",
+				"spring_23": "I had hoped to add tomorrow's 'flower dance' to my study of human socialization and courtship rituals.#$b$#Unfortunately, I was unable to find an adequately shaded, discreet spot from which to observe.$s#$b#Perhaps next year...$s",
+				"spring_24": "@, would you be willing to describe the flower dance to me? I have always been curious about Pelican Town festivals."
+				/*
 				"spring_26": "",
 				"spring_27": "",
 				"summer_4": "",
@@ -246,6 +253,7 @@
 				"winter_23": "",
 				"winter_24": "",
 				"winter_26": "",
+				*/
 				"8": "A 1000 year war between my people and the dwarves recently ended. There's still a lot of resentment on both sides.",
 				"15": "Please keep my location a secret. If the dwarves knew of me, they'd surely send an assassin."
 			}

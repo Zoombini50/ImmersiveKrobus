@@ -8,7 +8,8 @@
 		{
 			"Action": "Include",
 			"FromFile": "assets/Dialogue.json"
-		},
+		}
 		// note to self: older version of the event has since been updated in master, deleting here so it's easier to merge
 	]
+	// Could we add a non-required dependency for the canon-compliant dialogue expansion? It's quite popular—I use it—and I don't want it to override our Krobus. :) -G
 }

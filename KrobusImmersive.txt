@@ -1,6 +1,39 @@
-Last update: September 1, 2020 by Glowbug
+Last update: September 10, 2020 by Glowbug
 • Coordinate notes for a Krobus schedule
 • Wrote a draft of 8-heart event
+• Copied a bunch of Krobus's lines from other files here for reference
+
+StringsFromCSFiles.json
+        "NPC.cs.3990": "A human visitor? This is most unusual...#$e#I'm Krobus, merchant of rare and exotic goods.",
+        "NPC.cs.4274": "You remembered my birthday? I'm impressed. Thanks.$h",
+        "NPC.cs.4275": "A birthday gift? That's very kind of you! I love it.$h",
+        "NPC.cs.4276": "Oh, is it my birthday today? I guess it is. Thanks. This is nice.$h/Oh, is it my birthday today? I guess it is. Thanks. This is nice.$h",
+        "NPC.cs.4277": "You remembered my birthday! Thank you. This is great.$h",
+        "NPC.cs.4278": "It's my birthday and you give me this? Is this some kind of joke?$s/It's my birthday and you give me this? Is this some kind of joke?$s",
+        "NPC.cs.4279": "Oh... It's for my birthday? ... Thanks.$s/Oh... It's for my birthday? ... Thanks.$s",
+        "NPC.cs.4280": "For my birthday? Thanks.",
+        "NPC.cs.4281": "Oh, a birthday gift! Thank you./Oh, a birthday gift! Thank you.",
+        "Krobus_Engaged": "A Void Ghost pendant! How did you...?$3#$b#Oh, wow.$7#$b#@... yes, I'll come live with you, if you like. But we have to keep it secret from everyone.#$b#I'll be at your house in a few days... okay?$h",
+        "Krobus_AfterWedding": "Good morning, @... I snuck in during the night.$l#$b#It'll take me a while to get used to this new life... This is very different from the sewers...",
+        "Krobus_Stardrop": "I wanted to give you this as a 'thank you' for letting me live here with you.$h",
+        "TriedToMarryButKrobus": "You can't propose to someone while living with a housemate.",
+        "KrobusShopGone": "I'm away. Please leave your payment in the box. -Krobus",
+        "Housemate": "(Housemate)",
+        
+Characters.json
+        "MovieInvite_Invited_Krobus": "Oh? I normally hide myself from humans...#$b#But I have an idea... I'll meet you at the theater later.",
+
+        "KrobusDarkTalisman": "What's that... you're looking for a dark talisman?#$b#...Hmmm. Now that you mention it, I did have one in my possession not too long ago.#$b#Unfortunately, I dropped it while exploring that tunnel in the far corner.#$b#Things started heating up in there, so I left in a hurry and sealed the entrance.#$b#You seem pretty sturdy, though... So I'll open it back up for you. Just be careful, okay?",
+
+        "KrobusDarkTalisman_elsewhere": "What's that... you're looking for a dark talisman?#$b#...Hmmm. Now that you mention it, I did have one in my possession not too long ago.#$b#Unfortunately, I dropped it while exploring a tunnel in the sewers.#$b#Things started heating up in there, so I left in a hurry and sealed the entrance.#$b#You seem pretty sturdy, though... So I'll open it back up for you. Just be careful, okay?",
+
+EngagementDialogue.json
+        "Krobus0": "@... I'm afraid we'll have to keep this a secret... Neither my people nor yours would accept us living together.",
+        "Krobus1": "You know I'll be a very strange person to live with, right? I won't be able to leave the house..."
+
+NPCGiftTastes.json
+        "Krobus": "This is an amazing gift. For my people it is a great honor to receive something like this./72 16 276 337 305 308/Thank you very much./66 265 336 340/Humans have... interesting tastes./-7 -81 2 330/Oh... Um. I guess I'll accept it.//Thank you.// "
+
 
 -Everyday Dialogue-
 (vanilla lines here for reference)
