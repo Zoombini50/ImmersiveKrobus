@@ -3,6 +3,9 @@ Last update: September 10, 2020 by Glowbug
 • Wrote a draft of 8-heart event
 • Copied a bunch of Krobus's lines from other files here for reference
 
+*** There's a MarriageDialogueKrobus.json, replace THAT not just MarriageDialogue.json ***
+*** Make a list of Fridays ***
+
 StringsFromCSFiles.json
         "NPC.cs.3990": "A human visitor? This is most unusual...#$e#I'm Krobus, merchant of rare and exotic goods.",
         "NPC.cs.4274": "You remembered my birthday? I'm impressed. Thanks.$h",
@@ -79,18 +82,18 @@ Introductory
 * Triggered when player first enters the sewers
 * Waived in favor of intro by Marlon in SVE
 
-(Krobus is walking around in the sewer or standing in his shop. Player enters the area. Both jump.)
+(Krobus is walking around in the sewer. Player enters the area. Both jump.)
 Krobus: "Oh! A human..."
 (Both shake a little.)
 Krobus: "P-Please, don't be alarmed. I am different than the others."
-Player: ("?")
+Player: ("?" emote)
 Krobus: "Yes, I can speak your language. I've spent a lot of time observing humans... from the shadows."
-Krobus: "..." -> (emote instead?)
+Krobus: ("..." emote)
 Krobus: "Perhaps..."
 Krobus: "I know humans like to shop. Care to see my wares?"
-Player: (":)")
+Player: (":)" emote)
 (fade to black)
-Krobus:"I gather items I find here in the sewers to sell. I also have trinkets and treasures made by my people. I hope you find something that pleases you."
+Krobus: "I gather items I find here in the sewers to sell. I also have trinkets and treasures made by my people. I hope you find something that pleases you."
 
 After event:
 "I am open for business."

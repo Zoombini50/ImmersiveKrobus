@@ -1,31 +1,4 @@
-// Last update: September 10, 2020 by Glowbug
-// updated file to use EditData so it can be Included in content.json. I hope. :)
-// added a line for Spring 23, commented out most of the blank dialogue
-/*************************************************************************
-*	Dialogue Template: Day to Day speech														
-*	This file determines what your NPC says during the days.  You can use different tokens to symbolize your character's personality.
-*   Basic Keys: Mon, Tue, Wed, Thu, Fri, Sat, Sun : These are the days of the week and must have a capitol letter to be parsed correctly.
-*	Heart-Level is determined with a number at the end. (example: Mon4 is for Monday with 4 hearts.) You can only use even numbers.
-*	Seasonal Dialogue is determined with the season name (lowercase) and the day of the week after an underscore. (summer_Wed)
-*	You can combine some tokens to make more dialogue: winter_Tue6 for example, means on a Tuesday during winter when you have 6 hearts.
-*	You may also specify an exact day using Season followed by the day (1-28): fall_14 means the 14th day of fall.  This is useful for specific events.
-*	Response Dialogue goes here from Events and Questions made for the NPC.  They are determined by you and some examples are provided below.
-*	Introduction is a one time use dialogue used to Introduce your NPC to the player.
-*	danceRejection, dumped_Girls (dumped_Guys), secondChance_Girls (secondChance_Guys), and divorced are not all needed but you should put them in if your NPC can		*
-*		get married.											*
-*	There are plenty of options to dialogue use.  If you wish to use the full range of dialogue, see: https://stardewvalleywiki.com/Modding:Dialogue
-*****************************************************************************************/
-/*
-	"Introduction": "Hello, @!  That symbol I used tells me to use your name.  I can also use %farm to mention your farm.#$b#That is an uninterrupted break.. Keeps the dialogue going.#$e#This was a normal break... meaning you have to talk to me again.#$b#That should cover the basic dialogue.",
-	"Mon": "Hey @, I got a quick question for you...#$b#$q 6000/6001 mon_template#Do you know how to make question events?#$r 6000 250 mon_yes#Sure do#$r 6001 500 mon_no#I don't know how",
-	"mon_yes": "That's great to know... You should use them once in a while to help develop closer bonds to your NPC",
-	"mon_no": "No? Well let's look at my question.#$b# The first part is the question indicator.. the dollar sign+ the q.. This tells the game that I am about to ask a question.#$b#The first set of numbers are my response IDs.  The game will store the response to these numbers. #$b#The mon_template is my fallback... how I talk to you after the question has been answered.#$b# The dollar sign + r indicates that you are starting responses, the first number is the ID of the response and the second number is how many friendship points it gives. One heart is 250 points.  It also needs a response dialogue from me as well.#$b#Notice that responses and questions are divided by hashtags.",
-	"mon_template": "$p 6000#If you answered yes... You will see this dialogue.|If you did not, you will see this dialogue.",
-	"Tue": "MissCoriel can be helpful in many dialogue and events.  You can reach her on discord!#$b# Her ID is MissCoriel#7989!",
-	"Wed": "Portrait expressions are important to convey the scene.$1#$b#When making portraits, remember this:#$b#1 is happy, 2 is sad, 3 is unique, 4 is blushing, 5 is angry.#$b#You can have up to 12 portraits as far as I know.",
-	"Thu": "Some dialogue is found elsewhere in the contents.. I will help you find the most relavent.",
-	"Fri": "You can also give people items like this. [70]#$b#Use Cane's Resource to see Item IDs and other important things.",
-	*/
+// Last update: September 17, 2020 by Glowbug
 {
 	"Changes": [
 		{
@@ -41,23 +14,23 @@
 				"Mon2": "Back again? I suppose it does fit into my theory of human behavior.",
 				"Mon4": "Humans are wary of the unknown... yet they are also highly curious.#$e#Fascinating, don't you think?$h",
 				"Mon6": "'Krobus' means 'bridge-crosser' in our language.",
-				"Mon8": "",
+				"Mon8": "I've been learning to read human alphabets. The writings of a people are an important part of their culture!#$e#Also, I thought it would be fun to write you a letter.$l",
 				"Mon10": "Hello, @! Seigneur Hiedra, eldest of the shadow people, gave me a message for you.#$b#She says you are welcome to join us at the next Festival of the Mundane.$h",
 				"Tue": "I am too sensitive to sunlight to go out on most days.#$b#The conditions in here are perfect.#$e#Care to buy anything?",
-				"Sewer_Tue2": "The smell? ...Ah, I see. My sense of smell is rather weak compared to a human's, so the miasma of the sewer does not trouble me.",
+				"Tue2": "The smell? ...Ah, I see. My sense of smell is rather weak compared to a human's, so the miasma of the sewer does not trouble me.",
 				"Tue4": "Many culinary delicacies of the shadow are highly aromatic. I am particularly fond of void egg dishes.#$h",
-				"Tue6": "Have you ever tried void mayonnaise? The flavor is truly sublime!$h#$b#If only I had a small lava pit down here, I could bake you some strange buns.",
+				"Sewer_Tue6": "Have you ever tried void mayonnaise? The flavor is truly sublime!$h#$b#If only I had a small lava pit down here, I could bake you some strange buns.",
 				"Tue8": "One of my cousins has been talking of starting a small 'restaurant' in the quarry mine! It will be open to all beings.$h#$b#We'll have to clear out the flaming skull infestation first, though.",
-				"Tue10": "Cousin Kymior has been practicing xir void merengue pie. My mouth oozes in anticipation just thinking about it.$h",
+				"Tue10": "Cousin Kymior has been practicing xir void merengue pie. My mouth oozes in anticipation.$h",
 				"Wed": "I find things here and I sell them. Care to buy anything?",
 				"Wed2": "Welcome back! I am happy to have a regular customer.",
-				"Wed4": "",
+				"Wed4": "Yes, you can fish here if you like, but the sewer carp are quite ordinary. The fish in my shop, I purchased from my kinfolk.",
 				"Sewer_Wed6": "If you put your ear up to the right pipe, you can hear into any house from down here.#$b#I wouldn't eavesdrop, though!$3",
-				"Wed8": "",
-				"Wed10": "",
+				"Wed8": "The dwarf who lives beside the mine came to my shop the other night! They sold me a geode.$u",
+				"Wed10": "I would very much like to see your farm. Perhaps we could go on a walk some evening...?",
 				"Thu": "Please don't tell anyone about me.#$b#Humans tend to destroy things they can't understand.",
-				"Thu2": "You are a 'farmer,' correct? My friend Tobalai makes 'sprinklers.' Come back tomorrow. I will gladly sell one to you.#$e#Tobalai works slowly, but they are a master of fine crafting.",
-				"Thu4": "You are the third human I have ever spoken to. Magnus Rasmodius, the mage, and the one called Marlon sometimes visit me here.",
+				"Thu2": "You are a 'farmer,' correct? My friend Tobalai makes 'sprinklers.' Come back tomorrow. I will gladly sell one to you.#$e#Tobalai works slowly, but xe is a master of fine crafting.",
+				"Thu4": "You are the third human I have ever spoken to.#$b#Magnus Rasmodius, the mage, and the one called Marlon sometimes visit me here.",
 				"Thu6": "Most humans are frightened by us shadow people... maybe for good reason. But someone must lay the first plank in order for a bridge to be built.#$e#Thank you for supporting me, @.",
 				"Thu8": "",
 				"Thu10": "",
@@ -68,17 +41,17 @@
 				"Fri8": "...$h",
 				"Fri10": "...$h",
 				"Sat": "On Fridays I stay silent as a sign of devotion to Yoba.",
-				"Sat2": "A shrine to Yoba in the general store? Oh my, that sounds wonderful!$h#$b#But... I would not want to upset any humans during their worship.$s",
-				"Sat4": "Yoba has long been a source of comfort in my life. I am silent on Fridays to reflect and give thanks.",
+				"Sat2": "Yoba has long been a source of comfort in my life. I am silent on Fridays to reflect and give thanks.",
+				"Sat4": "A shrine to Yoba in the general store? Oh my, that sounds wonderful!$h#$b#But... I would not want to upset any humans during their worship.$s",
 				"Sat6": "Many of the shadow people worship Yoba. I find it reassuring that many humans do as well.",
-				"Sat8": "",
+				"Sat8": "I visited the shrine to Yoba yesterday, in the hour before dawn. It was most peaceful.$h",
 				"Sat10": "In my Friday meditations, I give thanks to Yoba for allowing me to meet you.$l",
 				"Sun": "...Sorry, I'm still a little wary of humans. My shop is still open to you, however.",
 				"Sun2": "I have always been curious about beings beyond the shadows. Most of my kin find me peculiar.#$b#Are you curious about shadow people, @?",
 				"Sun4": "You're not like most humans, are you?",
 				"Sun6": "Perhaps, if a friendship such as ours can flourish, greater understanding between humans and shadowfolk truly is possible.",
 				"Sun8": "You've opened my eyes to the world of humans, @. I appreciate that.",
-				"Sun10": "",
+				"Sun10": "@!$l#$e#...It's nice to see you.$l",
 				"summer_1": "Ah, the summer season. Wonderfully warm and humid... but too bright.",
 				"Summer_11": "I would be most interested in your description of the human 'luau.' Unfortunately, the sun is too bright for me to observe it directly.",
 				/*
@@ -96,10 +69,15 @@
 				"summer_Tue10": "",
 				"summer_Wed": "",
 				"summer_Wed2": "",
-				"summer_Wed4": "",
+				*/
+				"summer_Wed4": "I am not an accomplished fisher myself, but my people consider it a great achievement to catch a lava eel.",
+				/*
 				"summer_Wed6": "",
+				
 				"summer_Wed8": "",
-				"summer_Wed10": "",
+				*/
+				"summer_Wed10": "I no longer fear dwarf assassins. My acquaintance from the mine promised to put in a good word for me.",
+				/*
 				"summer_Thu": "",
 				"summer_Thu2": "",
 				"summer_Thu4": "",
@@ -168,7 +146,7 @@
 				"fall_Sun8": "",
 				"fall_Sun10": "",
 				*/
-				"winter_1": "All shadow people traditionally mark our ages at the onset of winter. In this season, night and shadow are at their strongest.#$e#It's a little cold for me, though. Maybe I'll acquire a 'scarf.'",
+				"winter_1": "All shadow people traditionally mark our ages at the onset of winter.#$b#In this season, night and shadow are at their strongest.#$e#It's a little cold for me, though. Maybe I'll acquire a 'scarf.'",
 				/*
 				"winter_Mon": "",
 				"winter_Mon2": "",
@@ -216,14 +194,15 @@
 				"spring_7": "",
 				"spring_10": "",
 				*/
-				"spring_12": "Perhaps I'll hide a void egg in the graveyard tonight. It would be satisfying to take part in a local ritual.",
+				"spring_11": "Perhaps I'll hide a void egg in the graveyard tomorrow night. It would be satisfying to take part in a local ritual.", // oops the 12th is a Friday
+				"spring_13": "I decorated an egg with the arcane symbols of the shadow, in honor of today's festival.#$b#Only with benign symbols, of course. Humans are rarely wise in their dealings with magic.$7",
+				"spring_14": "Hello, @. Did anyone find my egg?#$b#I hope the concealment charm I used was not *overly* effective...$u",
 				/*
-				"spring_14": "",
 				"spring_18": "",
 				*/
-				"spring_20": "Last week's forgotten festival eggs have begun to rot by now.#$b#Delicious!$h",
+				"spring_20": "Last week's forgotten eggs have begun to rot by now.#$b#Delicious!$h",
 				"spring_23": "I had hoped to add tomorrow's 'flower dance' to my study of human socialization and courtship rituals.#$b$#Unfortunately, I was unable to find an adequately shaded, discreet spot from which to observe.$s#$b#Perhaps next year...$s",
-				"spring_24": "@, would you be willing to describe the flower dance to me? I have always been curious about Pelican Town festivals."
+				"spring_24": "@, would you be willing to describe the flower dance to me? I have always been curious about Pelican Town festivals, but they are difficult to observe in daylight.",
 				/*
 				"spring_26": "",
 				"spring_27": "",
@@ -251,7 +230,9 @@
 				"winter_17": "",
 				"winter_20": "",
 				"winter_23": "",
-				"winter_24": "",
+				*/
+				"winter_24": "Tonight the winter star rises, showering the blessings of the stardrop upon this valley.#$e#Only a legend? Oh, @. That it is legend does not mean it is untrue!$7",
+				/*
 				"winter_26": "",
 				*/
 				"8": "A 1000 year war between my people and the dwarves recently ended. There's still a lot of resentment on both sides.",
@@ -260,3 +241,28 @@
 		}
 	]
 }
+/*************************************************************************
+*	Dialogue Template: Day to Day speech														
+*	This file determines what your NPC says during the days.  You can use different tokens to symbolize your character's personality.
+*   Basic Keys: Mon, Tue, Wed, Thu, Fri, Sat, Sun : These are the days of the week and must have a capitol letter to be parsed correctly.
+*	Heart-Level is determined with a number at the end. (example: Mon4 is for Monday with 4 hearts.) You can only use even numbers.
+*	Seasonal Dialogue is determined with the season name (lowercase) and the day of the week after an underscore. (summer_Wed)
+*	You can combine some tokens to make more dialogue: winter_Tue6 for example, means on a Tuesday during winter when you have 6 hearts.
+*	You may also specify an exact day using Season followed by the day (1-28): fall_14 means the 14th day of fall.  This is useful for specific events.
+*	Response Dialogue goes here from Events and Questions made for the NPC.  They are determined by you and some examples are provided below.
+*	Introduction is a one time use dialogue used to Introduce your NPC to the player.
+*	danceRejection, dumped_Girls (dumped_Guys), secondChance_Girls (secondChance_Guys), and divorced are not all needed but you should put them in if your NPC can		*
+*		get married.											*
+*	There are plenty of options to dialogue use.  If you wish to use the full range of dialogue, see: https://stardewvalleywiki.com/Modding:Dialogue
+*****************************************************************************************/
+/*
+	"Introduction": "Hello, @!  That symbol I used tells me to use your name.  I can also use %farm to mention your farm.#$b#That is an uninterrupted break.. Keeps the dialogue going.#$e#This was a normal break... meaning you have to talk to me again.#$b#That should cover the basic dialogue.",
+	"Mon": "Hey @, I got a quick question for you...#$b#$q 6000/6001 mon_template#Do you know how to make question events?#$r 6000 250 mon_yes#Sure do#$r 6001 500 mon_no#I don't know how",
+	"mon_yes": "That's great to know... You should use them once in a while to help develop closer bonds to your NPC",
+	"mon_no": "No? Well let's look at my question.#$b# The first part is the question indicator.. the dollar sign+ the q.. This tells the game that I am about to ask a question.#$b#The first set of numbers are my response IDs.  The game will store the response to these numbers. #$b#The mon_template is my fallback... how I talk to you after the question has been answered.#$b# The dollar sign + r indicates that you are starting responses, the first number is the ID of the response and the second number is how many friendship points it gives. One heart is 250 points.  It also needs a response dialogue from me as well.#$b#Notice that responses and questions are divided by hashtags.",
+	"mon_template": "$p 6000#If you answered yes... You will see this dialogue.|If you did not, you will see this dialogue.",
+	"Tue": "MissCoriel can be helpful in many dialogue and events.  You can reach her on discord!#$b# Her ID is MissCoriel#7989!",
+	"Wed": "Portrait expressions are important to convey the scene.$1#$b#When making portraits, remember this:#$b#1 is happy, 2 is sad, 3 is unique, 4 is blushing, 5 is angry.#$b#You can have up to 12 portraits as far as I know.",
+	"Thu": "Some dialogue is found elsewhere in the contents.. I will help you find the most relavent.",
+	"Fri": "You can also give people items like this. [70]#$b#Use Cane's Resource to see Item IDs and other important things.",
+	*/

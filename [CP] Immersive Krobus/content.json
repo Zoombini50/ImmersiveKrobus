@@ -1,16 +1,14 @@
 {
 	"$schema": "https://smapi.io/schemas/content-patcher.json",
 	"Format": "1.16.0",
-	// Last update: September 8, 2020 by Glowbug
-	// looked up and used "Action": "Include" to add separated dialogue file
-	// updated version number in format to 1.16
+	// Last update: September 11, 2020 by Glowbug
+	// fixed various commas and brackets that were messing up the file loading
 	"Changes": [
-		// fingers crossed this works I looked it up haha
 		{
-
 			"Action": "Include",
-			"FromFile": "assets/Dialogue.json"
-
+			"FromFile": "assets/Dialogue.json",
+		},
+		{
 			"Action": "EditData",
 			"Target": "Data/Events/Sewer",
 			"Entries": {
@@ -32,7 +30,6 @@
 				2) I think it'd be nice if the farmer and Krobus walk back together towards where his shop is. His movement will be simple since he's only moving along the X axis, but the farmer's movement would be tougher, unless we're able to just have them move along the Y axis and the scene fades to black before they have to turn the corner!
 				*/
 			}
-
 		}
 	]
 	// Could we add a non-required dependency for the canon-compliant dialogue expansion? It's quite popular—I use it—and I don't want it to override our Krobus. :) -G
