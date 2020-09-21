@@ -4,10 +4,13 @@ Last update: September 10, 2020 by Glowbug
 • Copied a bunch of Krobus's lines from other files here for reference
 
 *** There's a MarriageDialogueKrobus.json, replace THAT not just MarriageDialogue.json ***
-*** Make a list of Fridays ***
+
+Fridays:
+
 
 StringsFromCSFiles.json
         "NPC.cs.3990": "A human visitor? This is most unusual...#$e#I'm Krobus, merchant of rare and exotic goods.",
+        "NPC.cs.4001": "Honey... I wanted to give you that fruit as a symbol of my love.$l", // stardrop
         "NPC.cs.4274": "You remembered my birthday? I'm impressed. Thanks.$h",
         "NPC.cs.4275": "A birthday gift? That's very kind of you! I love it.$h",
         "NPC.cs.4276": "Oh, is it my birthday today? I guess it is. Thanks. This is nice.$h/Oh, is it my birthday today? I guess it is. Thanks. This is nice.$h",
@@ -16,6 +19,47 @@ StringsFromCSFiles.json
         "NPC.cs.4279": "Oh... It's for my birthday? ... Thanks.$s/Oh... It's for my birthday? ... Thanks.$s",
         "NPC.cs.4280": "For my birthday? Thanks.",
         "NPC.cs.4281": "Oh, a birthday gift! Thank you./Oh, a birthday gift! Thank you.",
+        "NPC.cs.4439": "I wonder how much the new baby will change things?$s",
+        "NPC.cs.4440": "{0}, I hope our adoption request gets approved. I want a baby.$l",
+        "NPC.cs.4441": "{0}, I filed our adoption papers. Now all we can do is cross our fingers and wait.$l",
+        "NPC.cs.4442": "Ugh... I feel a little nauseated this morning.$s",
+        "NPC.cs.4443": "I'm pregnant... can't you make your own breakfast?$s",
+        "NPC.cs.4444": "{0}, we're going to have a baby soon.$l",
+        "NPC.cs.4445": "{0}, I'm pregnant. Isn't it wonderful?$l",
+        "NPC.cs.4446": "I just feel like sleeping today. Don't worry about it.$a",
+        "NPC.cs.4447": "{0}, we're going to have a baby soon.$l",
+        "NPC.cs.4448": "{0}, can't you tell? You're pregnant.$l",
+        "NPC.cs.4449": "Being a parent is annoying, sometimes...  I just don't feel like getting up.$a",
+        "NPC.cs.4452": "I need some alone time... Why don't you take care of the kids for a change?$a",
+        "NPC.cs.4455": "I was going to make you breakfast, but I changed my mind.$a",
+        "NPC.cs.4462": "I got up early and watered some crops for you. I hope it makes your job a little easier today.",
+        "NPC.cs.4463": "#$e#I also filled {0}'s water bowl.",
+        "NPC.cs.4465": "Hi {0}! ",
+        "NPC.cs.4466": "Good Morning, {0}! ",
+        "NPC.cs.4470": "I got up early to water some crops and they were already done! You've really got this place under control.$h",
+        "NPC.cs.4474": "I got up early and fed all the farm animals. I hope that makes your job a little easier today.",
+        "NPC.cs.4481": "I spent the morning repairing a few of the fences. They should be as good as new.",
+        "NPC.cs.4486": "What do you think, {0}? ",
+        "NPC.cs.4488": "I ordered this the other day and it just arrived.",
+        "NPC.cs.4489": "I figured the room could use a little more decoration.",
+        "NPC.cs.4490": "I was going to do some decorating today, but I changed my mind.$a",
+        "NPC.cs.4496": "What do you think of the new wallpaper I chose?",
+        "NPC.cs.4497": "What do you think of the new flooring I chose?",
+        "NPC.cs.4498": "*sigh*... sometimes I miss my old life.$s",
+        "NPC.cs.4499": "The weather's too gloomy to get out of bed.$s",
+        "NPC.cs.4500": "You could have cleaned up in here a little while I was gone...$a#$e#It's not very nice to have to wade through a bunch of junk after a hard day's work.$a",
+        "PathFindController.cs.4579": "Ugh... the house is a mess. I can't even get to where I need to go!$a",
+        "Utility.cs.5367": "When @ first arrived in Pelican Town, no one knew if he'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and %spouse in the bonds of marriage.",
+        "Utility.cs.5369": "When @ first arrived in Pelican Town, no one knew if she'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and %spouse in the bonds of marriage.",
+        "Utility.cs.5370": "Well, let's get right to it!",
+        "Utility.cs.5371": "@... %spouse... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you husband and... well, husband!$h",
+        "Utility.cs.5373": "@... %spouse... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you husband and wife!$h",
+        "Utility.cs.5375": "@... %spouse... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you wife and... well, wife!$h",
+        "Utility.cs.5377": "@... %spouse... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you wife and husband!$h",
+        "Utility.cs.5379": "You may kiss.",
+        "Utility.cs.5381": "Life is going to be different from now on...",
+        "Utility.cs.5383": "...But the future looks bright!",
+
         "Krobus_Engaged": "A Void Ghost pendant! How did you...?$3#$b#Oh, wow.$7#$b#@... yes, I'll come live with you, if you like. But we have to keep it secret from everyone.#$b#I'll be at your house in a few days... okay?$h",
         "Krobus_AfterWedding": "Good morning, @... I snuck in during the night.$l#$b#It'll take me a while to get used to this new life... This is very different from the sewers...",
         "Krobus_Stardrop": "I wanted to give you this as a 'thank you' for letting me live here with you.$h",
@@ -33,6 +77,15 @@ Characters.json
 EngagementDialogue.json
         "Krobus0": "@... I'm afraid we'll have to keep this a secret... Neither my people nor yours would accept us living together.",
         "Krobus1": "You know I'll be a very strange person to live with, right? I won't be able to leave the house..."
+
+Extra.json
+        "NewChild_SecondChild1": "Just look at our little family... We've come a long way, haven't we?",
+        "NewChild_SecondChild2": "Two beautiful children... We've come a long way, haven't we?",
+        "NewChild_Adoption": "It's so wonderful to welcome little {0} into our life.",
+        "NewChild_FirstChild": "Everything went well, and now little {0} is part of the family. We're very fortunate.",
+        "Spouse_KitchenBlocked": "You've got a bunch of your stuff blocking the kitchen... I guess you're not getting dinner tonight.$a",
+        "Spouse_MonstersInHouse": "Um... Honey? Why are there monsters in the house?", //I can rewrite this for Krobus and it will be GRAND :D
+        "Town_DumpsterDiveComment_Linus": "Find anything good?$h", // Krobus variation? :D
 
 NPCGiftTastes.json
         "Krobus": "This is an amazing gift. For my people it is a great honor to receive something like this./72 16 276 337 305 308/Thank you very much./66 265 336 340/Humans have... interesting tastes./-7 -81 2 330/Oh... Um. I guess I'll accept it.//Thank you.// "

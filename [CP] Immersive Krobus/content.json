@@ -1,12 +1,16 @@
 {
 	"$schema": "https://smapi.io/schemas/content-patcher.json",
 	"Format": "1.16.0",
-	// Last update: September 11, 2020 by Glowbug
-	// fixed various commas and brackets that were messing up the file loading
+	// Last update: September 20, 2020 by Glowbug
+	// Included the MarriageDialogue file
 	"Changes": [
 		{
 			"Action": "Include",
 			"FromFile": "assets/Dialogue.json",
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/MarriageDialogue.json",
 		},
 		{
 			"Action": "EditData",

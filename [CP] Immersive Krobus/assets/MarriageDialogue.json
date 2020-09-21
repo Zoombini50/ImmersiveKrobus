@@ -1,9 +1,4 @@
-/**************************************************************************************************************
-*																														*
-*																Marriage Dialogue										*
-*			These are specific to the spouse and are nearly all needed.... Just fill it in.								*
-*																														*
-***********************************************************************************************************/
+// Last update: September 20, 2020 by Glowbug
 {
     "Changes": [
         {
@@ -15,12 +10,12 @@
                 "Rainy_Day_2": "Good morning, @. I went out early and found this for you. [305 308 203 795 397]#$e#I hope it's not too strange.",
                 "Rainy_Day_3": "I wonder if the wizard knows about... this? I hope he can keep a secret.$s", // change this one
                 "Rainy_Day_4": "As much as I try to be civilized, I have the urge to be mischievous sometimes...$6#$e#They say it's a condition of my people.",
-                "Rainy_Day_5": "",
-                "Rainy_Day_6": "",
+                "Rainy_Day_5": "KROBUS NEEDS SOMETHING TO SAY!$6",
+                "Rainy_Day_6": "KROBUS NEEDS SOMETHING TO SAY!$6",
                 // "patio_Krobus": " You need to declare the spouse name. (Example: patio_Haley)", // beep boop does Krobus need a patio?
                 "Rainy_Day_Krobus": "Ah, It's more humid today with the rain... I feel a lot more comfortable.",
                 "Rainy_Night_0": "On nights like this, those who gaze out windows sometimes see shadowy figures. To think... it might've been me.$7",
-                "Rainy_Night_1": "If the other shadow people knew about our living arrangement, they would... 'punish' me.$s#$e#Most of them despise humans, you know.", // change this one too
+                "Rainy_Night_1": "Most of the other shadow people look askance at my living with a human...$s#$e#I suppose change comes slowly.",
                 "Rainy_Night_2": "You're sopping wet, and cold! Isn't that dangerous to your species?$s",
                 "Rainy_Night_3": "I already had dinner, but it wasn't something you'd be able to eat... sorry.",
                 "Rainy_Night_4": "Ever since I left my people, I've been searching for a new home... now I belong somewhere. That means everything to me.", // tweak? but only a little, this is sweet :)
@@ -28,63 +23,63 @@
                 "Rainy_Night_6": "",
                 "Rainy_Night_Krobus": "The sound of the rain reminds me of the sewers... it's comforting.#$e#The sewers were my refuge... I felt safe there. But don't worry... I feel the same way about my new home, too.",
                 "Indoor_Day_0": "If I could come help you, I would... but I'll do my best to keep the house in order.",
-                "Indoor_Day_1": "I tried my best to make human food... [203 204 651 225]#$e#You can eat it later, don't worry about it...", // tweak. poor guy is so hard on himself!
+                "Indoor_Day_1": "I tried my best to make human food... [203 204 651 225]#$e#I've been watching 'The Queen of Sauce' while you're out farming.$h",
                 "Indoor_Day_2": "I'm happy here, in the house. I like to spend all my time in a good spot... I don't need to \"get out\" like humans do.#$e#But I understand that you need to! Please don't feel like you have to stay here with me.$3",
                 "Indoor_Day_3": "I'm considering spending my day all balled up and wedged in the corner...#$e#What? You mean you don't do that?$3", // MOOD
                 "Indoor_Day_4": "On Fridays, I like to stay quiet out of respect for Yoba. I hope you don't mind.", // I feel like we've established this by the time he's your housemate though...
-                "Indoor_Day_5": "",
-                "Indoor_Day_6": "",
+                "Indoor_Day_5": "I borrowed some books from the library. I'm reading all about the history of human festivals!$h",
+                "Indoor_Day_6": "@, you have a guide to Dwarvish, don't you? I would like to borrow it to study.",
                 "Indoor_Day_Krobus": "I wish I could help you on the farm, but I can't go out in the sun...", // hmm
                 "Indoor_Night_0": "I cleaned all the bugs out of the house today... Sorry, I didn't save you any! *smack*$7",
                 "Indoor_Night_1": "You feel solid... sometimes I wish I had bones, too...$s",
                 "Indoor_Night_2": "Sometimes I wonder if humans and shadow people could really ever co-exist... It's a lovely idea, but is it realistic?$s#$e#I hope so...", // tweak, that's the entire point of his story arc
                 "Indoor_Night_3": "Sometimes I pause and think of all that I've learned about humans from you...#$b#I wish all my fellow shadow people could know this feeling.",
-                "Indoor_Night_4": "I want to be a good housemate for you, but I never know if I'm doing well... *groan* $s#$e#I have a hard time understanding human expression. B... but... you're happy living with me?#$e#Okay!$7", // awww Krobus
-                "Indoor_Night_5": "",
-                "Indoor_Night_6": "",
+                "Indoor_Night_4": "I want to be a good housemate for you, but I have a hard time understanding human expression... *groan* $s#$e#B... but... you're happy living with me?#$e#Okay!$7",
+                "Indoor_Night_5": "KROBUS NEEDS SOMETHING TO SAY!$6",
+                "Indoor_Night_6": "KROBUS NEEDS SOMETHING TO SAY!$6",
                 "Indoor_Night_Krobus": "Hi, @. Welcome home. You look like you've been working hard out there!$h",
-                "Outdoor_0": "I'll stay out here for just a bit, but we've got to be careful... if anyone approaches I'll need to hide!", // tweak
+                "Outdoor_0": "I'll stay out here for just a bit. Even now, it's difficult not to hide when someone approaches.",
                 "Outdoor_1": "It's rare that I can step outside!",
                 "Outdoor_2": "What a beautiful day!$h",
                 "Outdoor_3": "Wide open spaces make me nervous...$s",
                 "Outdoor_4": "Please go about your day, I'll just stay here and guard the house.",
-                "Outdoor_5": "",
-                "Outdoor_6": "",
-                "Outdoor_Krobus": "On a day like this, I can enjoy the outdoors with you. This is really nice!$h#$b#Just let me know if you see anyone coming, so I can hide.$u", // need to edit for greater acceptance from town for Krobus
-                "funLeave_Krobus": "Don't forget to fill in your NPC's Name",
-                "funReturn_Krobus": "Don't forget to fill in your NPC's Name",
-                "OneKid_0": "",
-                "OneKid_1": "",
-                "OneKid_2": "",
-                "OneKid_3": "I'm not sure how, but Yoba has blessed this house with a 'child'...",
-                "OneKid_4": "",
-                "OneKid_5": "",
+                "Outdoor_5": "Oh! What was that?$u#$b#A... 'squirrel'?#$b#I'll have to start a new notebook on farm life, won't I?$7",
+                "Outdoor_6": "I'll watch you work for a while, if that's all right.",
+                "Outdoor_Krobus": "On a day like this, I can enjoy the outdoors with you. This is really nice!$h#$b#Just let me know if you see anyone coming, so we don't alarm each other.$u",
+                "funLeave_Krobus": "$c .5#I think I'll go out and people-watch today. I'll take the notebook you gave me.#I think I'll go visit Linus today.#$b#He is a kind and accepting friend. Much like you.$h",
+                "funReturn_Krobus": "Hello, @. I had a wonderful day. How about you?$h",
+                "OneKid_0": "Shadow people do not have 'children' as humans do, but we do have a long tradition of the elder nurturing the younger.#$b#I am happy to care for %kid1 in the same way.",
+                "OneKid_1": "When do human babies become old enough to communicate? I would like to ask %kid1 what 'childhood' is like...", // change to allow for shadow babies in the future?
+                "OneKid_2": "I've been researching nutrition for human children. What is this concept called 'bottle feeding'?", //ditto
+                "OneKid_3": "Yoba has blessed this house with a 'child'...",
+                "OneKid_4": "I'm taking lots of notes on %kid1's behavior for my research. What a fascinating stage of human development!", //ditto above
+                "OneKid_5": "I wonder what %kid1's life holds...",
                 "TwoKids_0": "Don't worry... I already made %kid1 and %kid2 a void egg omelet.",
-                "TwoKids_1": "",
+                "TwoKids_1": "I have been telling %kid1 and %kid2 legends of the shadow people to calm them when they are tired. You should tell them some human tales, too!",
                 "TwoKids_2": "I worry about the future of the children... But I trust that Yoba has a plan for them.",
                 "TwoKids_3": "This house has been blessed with two children, now... Does that mean Yoba approves of our unconventional living arrangement?",
-                "TwoKids_4": "",
-                "TwoKids_5": "",
-                "Good_1": "I feel a sensation in my body... is this... 'platonic love'?$l#$b#... Oh, wait... I'm just shedding my skin.$s",
-                "Good_2": "I've learned to overcome my bias against humans... but Dwarves still disgust me.$a", // definitely tweak for his improved relationship with Dwarf
-                "Good_3": "You started nibbling on me during the night, and mumbling about 'black lick or ish'... what did you mean by that?$3",
+                "TwoKids_4": "Our children will be raised in the worlds of both humans and shadow people.#$b#It may be difficult for them... but I am also proud.$l",
+                "TwoKids_5": "Do you think %kid1 and %kid2 are old enough to visit the mines? I would like to introduce them to my kin, but not to endanger them.#$b#Maybe the sewers would be safer. I could show them my shop!",
                 "Good_0": "We're making progress, and I feel really hopeful.$h",
-                "Good_5": "I was just admiring this lovely house... what a wonderful place.$l",
-                "Good_4": "  ",
-                "Good_6": "  ",
-                "Good_7": "  ",
-                "Good_8": "",
-                "Good_9": "",
+                "Good_1": "I feel a sensation in my body... is this... 'platonic love'?$l#$b#... Oh, wait... I'm just shedding my skin.$s",
+                "Good_2": "I've learned to overcome my biases against humans and even dwarves... but I suppose it will take time to build true peace between our peoples.",
+                "Good_3": "You started nibbling on me during the night, and mumbling about 'black lick or ish'... what did you mean by that?$3",
+                "Good_4": "I hope this isn't too strange to say, @, but you are nice and warm to lie beside in bed.$l",
+                "Good_5": "I was just admiring our lovely house... what a wonderful place.$l",
+                "Good_6": "I've been trying on your clothes while you are out... I hope you don't mind.",
+                "Good_7": "KROBUS NEEDS SOMETHING TO SAY!$6",
+                "Good_8": "KROBUS NEEDS SOMETHING TO SAY!$6",
+                "Good_9": "KROBUS NEEDS SOMETHING TO SAY!$6",
                 "Neutral_0": "I won't ever grow old, but you will. Sometimes it makes me sad... but that's okay.$s",
                 "Neutral_1": "Do you think your Grandpa would approve of a monster living in his house?", // eep, tweak
-                "Neutral_2": "Do you think we could get in trouble for living together?$s", // tweak?
+                "Neutral_2": "Do you think our peoples will continue to accept us living together?$s",
                 "Neutral_3": "It's so bright in here... I might close my eyes for a few hours.$s",
-                "Neutral_4": "I can't go outside, I can only eat certain food, I need the temperature a certain way... I hope it's not too much of a bother to live with me, @.$s", // tweak?
+                "Neutral_4": "I can't go out in the sun, I can only eat certain food, I need the temperature a certain way... I hope it's not too much of a bother to live with me, @.$s", // tweak?
                 "Neutral_5": "Welwick says I'm cursed today.$s",
                 "Neutral_6": "I'll tell you a secret... I don't actually sleep, I just lay there with my eyes closed...",
-                "Neutral_7": "You're a strange one, to want to live with a creature like me.", // tweak
+                "Neutral_7": "You're a strange one, to want to live with a creature so different from you.",
                 "Neutral_8": "I'm going to clean the house all day! This is fun.$7",
-                "Neutral_9": "I wonder if we'll live here our entire lives? Moving would probably be too dangerous for me.", // hmm, tweak?
+                "Neutral_9": "I wonder if we'll live here our entire lives? Moving would probably be difficult for me.",
                 "Bad_1": "*sigh*... Maybe I should've stayed with my own kind.$s",
                 "Bad_0": "...Do you still like me?$s",
                 "Bad_2": "Are you still happy, living with me?$s",
@@ -100,39 +95,43 @@
                 "summer_26": "...",
                 "spring_Krobus": "It's 'spring' now, isn't it? I can smell the peppery aroma of wild horseradish.",
                 "spring_1": "What's your plan for the new year, @?",
-                "spring_2": "",
+                "spring_2": "KROBUS NEEDS SOMETHING TO SAY!$6",
                 "spring_5": "...",
                 "spring_12": "...",
                 "spring_19": "...",
-                "spring_23": "You should go to the flower dance tomorrow! Don't worry about me.", // tweak?
+                "spring_23": "You should go to the flower dance tomorrow! I look forward to hearing your observations.",
                 "spring_26": "...",
                 "summer_Krobus": "You call this time of year 'summer', right? The warmth and humidity is nice, but I wish it wasn't so sunny.",
                 "summer_1": "I get sunburnt very easily, so I need to be careful this time of year.",
-                "summer_4": "",
+                "summer_4": "I tried some of your 'sunscreen,' but it made my skin peel horribly... I must be allergic.$s",
                 "summer_8": "Mmm... what's that lovely smell? You must've been sweating all night...$h",
                 "summer_15": "It's summer... that means the house is full of flies.#$e#Don't worry, I'll take care of them. It's good protein!$h",
                 "fall_Krobus": "It's been feeling a bit cooler lately, with a musty smell. You call this time of year 'fall', correct?",
-                "fall_1": "",
-                "fall_2": "",
+                "fall_1": "KROBUS NEEDS SOMETHING TO SAY!$6",
+                "fall_2": "KROBUS NEEDS SOMETHING TO SAY!$6",
                 "fall_5": "...",
-                "fall_6": "",
+                "fall_6": "KROBUS NEEDS SOMETHING TO SAY!$6",
                 "fall_8": "I don't feel like doing anything today.",
                 "fall_12": "...",
                 "fall_15": "Have you figured out what you're going to use for your grange display tomorrow?",
                 "fall_19": "...",
                 "fall_20": "",
-                "fall_24": "If I showed up to the Spirit's Eve festival they'd put me in a cage...$s", // tweak?
+                "fall_24": "",
                 "fall_26": "...",
+                "fall_27": "$c .5# Today I will attend the Festival of the Mundane with my kindred. You are welcome to accompany me, but we should probably get you a disguise just in case.$h#I am too much like the 'monsters' on display to be comfortable at the human Spirit's Eve festival, but I don't mind if you wish to go.$s",
                 "winter_Krobus": "The darkness this time of year is very soothing. If only it were warmer!",
-                "winter_1": "",
-                "winter_3": "",
+                "winter_1": "Today the season of darkness begins, and all of us shadow people increment our ages.#$b#How many years have I lived? {{Query: 525 + {{Year}} }}!$h#$e#Oh, I am not so old. The venerable Seigneur Hiedra counts nearly twenty millennia!",
+                "winter_2": "The fire makes such lovely dancing shadows on the walls. I could watch them for hours.",
+                "winter_3": "@, would you help me make a 'blueberry tart'? I wish to bring Linus a birthday gift, but I'm still having trouble with human cooking.",
                 "winter_5": "...",
-                "winter_7": "",
+                "winter_8": "You'll have to go to the ice festival without me, @... it is too cold and too bright.#$b#I'm sorry. But I want to hear all about it when you come home!",
                 "winter_12": "...",
-                "winter_15": "",
+                "winter_13": "@! I've made an incredible discovery! It is called a 'hot shower'...$l#$e#Why are you laughing?$s",
+                "winter_15": "Merchant travelers from distant lands... how fascinating. Perhaps if I find a warm enough coat to wear...",
+                "winter_17": "Magnus Rasmodius celebrates his birth today. Perhaps I'll bring him some fresh void essence for his studies.",
                 "winter_19": "...",
                 "winter_26": "...",
-                "winter_28": "Thanks for letting me stay here, @. I'm looking forward to another great year!$h",
+                "winter_28": "Thanks for letting me stay here, @. I'm looking forward to another great year!$h", //tweak - we are not doing him a favor, this is a mutual relationship
                 "spouseRoom_Krobus": "#$c .5#We're so physically different that it's a challenge to live together, isn't it?#$e#I hope the humidity here isn't bothersome to you. We both have to compromise in order to live together!",
             }
         }
