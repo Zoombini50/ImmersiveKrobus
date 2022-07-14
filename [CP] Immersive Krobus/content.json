@@ -1,8 +1,8 @@
 {
 	"$schema": "https://smapi.io/schemas/content-patcher.json",
 	"Format": "1.16.0",
-	// Last update: September 20, 2020 by Glowbug
-	// Included the MarriageDialogue file
+	// Last update: July 14, 2022 by LenneDalben
+	// Updated the intro event
 	"Changes": [
 		{
 			"Action": "Include",
@@ -13,26 +13,32 @@
 			"FromFile": "assets/MarriageDialogue.json",
 		},
 		{
+			"LogName": "Intro Event for Krobus", // Glowbug (concept and dialog in the event) and LenneDalben (event script and format)
 			"Action": "EditData",
 			"Target": "Data/Events/Sewer",
 			"Entries": {
-				"31072020": "continue/15 16/farmer 15 15 2 Krobus 29 21 1/playMusic Icicles/emote Krobus 8/speed Krobus 4/move Krobus -10 0 2/jump farmer 8/jump Krobus 8/faceDirection Krobus 0/startJittering/speak Krobus \"Oh! A human...\"/speak Krobus \"P-Please, don't be alarmed. I am different than the others.$s\"/stopJittering/pause 500/emote farmer 8/speak Krobus \"Yes, I can speak your language. I've spent a lot of time observing humans...from the shadows.$h\"/emote Krobus 40/speak Krobus \"Perhaps...\"/speak Krobus \"I know humans like to shop. Care to see my wares?$h\"/emote farmer 32/pause 500/globalFade/viewport -1000 -1000/speak Krobus \"I gather items I find here in the sewers to sell. I also have trinkets and treasures made by my people. I hope you find something that pleases you.$h\"/end dialogue Krobus \"I am open for business.$h\""
+				"31072020": "continue/-1000 -1000/farmer 17 15 2 Krobus 29 21 1/viewport 22 18/playMusic Icicles/pause 1000/faceDirection farmer 1/pause 500/faceDirection farmer 3/emote Krobus 8/pause 200/skippable/speed Krobus 5/move Krobus -10 0 0/faceDirection farmer 2/jump farmer 8/jump Krobus 8/startJittering/speak Krobus \"{{i18n:event-31072020.01}}\"/speak Krobus \"{{i18n:event-31072020.02}}\"/stopJittering/pause 500/emote farmer 8/speed Krobus 4/move Krobus 0 -6 3/faceDirection farmer 1/speak Krobus \"{{i18n:event-31072020.03}}\"/pause 500/emote Krobus 40/speak Krobus \"{{i18n:event-31072020.04}}\"/speak Krobus \"{{i18n:event-31072020.05}}\"/emote farmer 32/pause 500/globalFade/viewport -1000 -1000/speak Krobus \"{{i18n:event-31072020.06}}\"/end dialogue Krobus \"{{i18n:event-31072020.07}}\""
 				/*breakdown of the code, for our learning:
 				First is the ID, I chose the day, woohoo!
-				continue is the initial "music". (15, 16) are the coordinates the camera is focused on.
-				Next are the coordinates of the farmer and Krobus, (X, Y, direction they're facing).
-				I then set the music to play, Icicles, because it wouldn't work in the first slot, where continue is. Jonqora and I don't know why. 
-				Then we have Krobus with the "?" emote before turning around to discover the farmer! They both jump; 8 is the default value for jump. Not sure what happens if we make it greater or smaller, but that can be tested!
+				continue is the initial "music". (-1000 -1000) are the initial coordinates the camera is focused on. This is so the screen is black at first.
+				Next are the coordinates of the player and Krobus, (X, Y, direction they're facing).
+				Then the viewport, the coordinates the camera is focused on, is changed to (22, 18).
+				Then set the music to play, Icicles, because it wouldn't work in the first slot, where continue is.
+				There's a pause to give the scene a moment to "breathe". Then we have the player looking around the sewer with the different faceDirection commands.
+				Then we have Krobus with the "?" emote before walking to discover the player! They both jump; 8 is the default value for jump, and it's a big one! There's a skippable command in there right before Krobus moves, in case there's a mod that changes the layout of the sewer and Krobus gets stuck.
 				Then the dialog happens, which include the portraits.
 				Then there's the farmer emote of the cute smiley face.
 				Screen fades to black.
 				Krobus mentions his last bit of dialog, and the event ends.
 				Then there's the placeholder for the dialog that Krobus will say next time you talk to him.
 
-				Additional enhancements I thought of:
-				1) Currently this event plays the next time you go into the sewers, so we may want to look into adding a When condition so this only plays the first time you go into the sewer. I'd have to look into it.
-				2) I think it'd be nice if the farmer and Krobus walk back together towards where his shop is. His movement will be simple since he's only moving along the X axis, but the farmer's movement would be tougher, unless we're able to just have them move along the Y axis and the scene fades to black before they have to turn the corner!
+				The When condition checks that the player hasn't talked to Krobus yet (haven't met). That way, the event only plays the first time you go into the sewers, and he doesn't introduce himself if you've already met.
+
+				The dialog is formatted for i18n, so that it's easier to translate.
 				*/
+			},
+			"When": {
+				"Relationship:Krobus": "Unmet"
 			}
 		}
 	]
