@@ -1,6 +1,6 @@
 {
 	"$schema": "https://smapi.io/schemas/content-patcher.json",
-	"Format": "1.16.0",
+	"Format": "1.18.0",
 	// Last update: July 14, 2022 by LenneDalben
 	// Updated the intro event
 	"Changes": [

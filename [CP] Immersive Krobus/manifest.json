@@ -7,6 +7,7 @@
    "MinimumApiVersion": "3.6.1",
    "ContentPackFor": {
        "UniqueID": "Pathoschild.ContentPatcher",
+       "MinimumVersion": "1.18.0"
     },
    "UpdateKeys": [ "ModDrop:1198039" ],
 }
