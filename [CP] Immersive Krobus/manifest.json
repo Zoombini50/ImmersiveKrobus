@@ -10,4 +10,11 @@
        "MinimumVersion": "1.18.0"
     },
    "UpdateKeys": [ "ModDrop:1198039" ],
+   // This is the false / soft dependency on CFDE to ensure it doesn't overwrite
+   /*"Dependencies": [
+      {
+         "UniqueID": "gizzymo.canonfriendlyexpansion",
+         "IsRequired": false
+      }
+   ]*/
 }
