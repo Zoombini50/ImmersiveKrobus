@@ -4,7 +4,7 @@
    "Description": "Adds some dialogue and an event for Krobus!",
    "Version": "2.0.0",
    "UniqueID": "Glowbug.LenneDalben.ImmersiveKrobus",
-   "MinimumApiVersion": "4,2,1",
+   "MinimumApiVersion": "4.2.1",
    "ContentPackFor": {
        "UniqueID": "Pathoschild.ContentPatcher",
        "MinimumVersion": "2.6.0"
