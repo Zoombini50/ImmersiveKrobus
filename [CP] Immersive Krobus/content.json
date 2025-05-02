@@ -1,8 +1,8 @@
 {
 	"$schema": "https://smapi.io/schemas/content-patcher.json",
-	"Format": "1.18.0",
-	// Last update: July 14, 2022 by LenneDalben
-	// Updated the intro event
+	"Format": "2.6.0",
+	// Last update: May 02, 2025 by LenneDalben
+	// Updated the version numbers for game version 1.6
 	"Changes": [
 		{
 			"Action": "Include",
